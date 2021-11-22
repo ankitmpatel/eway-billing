@@ -1,0 +1,19 @@
+{
+	"input-with-label-col2": {
+			"scope": "html",
+			"prefix": "eway.input.col2",
+			"body": [
+				"<div class=\"col-2\"><div class=\"form-group\"><label for=\"$1\">$2</label><input type=\"text\" class=\"form-control\" name=\"$1\" placeholder=\"$2\" /></div></div>"
+			],
+			"description": "Log output to console"
+	},
+	"select-with-label-col2": {
+		"scope": "html",
+		"prefix": "eway.select.col2",
+		"body": [
+			"<div class=\"col-2\">\n<div class=\"form-group\">\n    <label for=\"gstn\">$2</label>\n    <select class=\"form-control select2 $1\" name=\"$1\">\n        <option value=\">$3</option>\n        <option value=\">$4</option>\n    </select>\n</div></div>"
+		],
+		"description": "Generate col-2 with select and input"
+	}
+	
+}

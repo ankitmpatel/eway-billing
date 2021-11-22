@@ -1,0 +1,49 @@
+/* Header cells */
+/*table.pretty thead th {
+    text-align: center;
+    background: #212529;
+    color: white;
+}*/
+
+.select2-selection__rendered {
+    line-height: 33px !important;
+}
+.select2-container .select2-selection--single {
+    height: 40px !important;
+}
+.select2-selection__arrow {
+    height: 40px !important;
+}
+
+.filters label{
+    font-weight: bold;
+    padding-left: 2px;
+    padding-right: 2px;
+}
+
+.dataTables_wrapper .dataTables_processing {
+    position: absolute !important;
+    top: 10% !important;
+    left: 50% !important;
+    width: 30% !important;
+    height: 80px !important;
+    margin-left: -20% !important;
+    margin-top: -25px !important;
+    padding: 0px ​!important;
+    text-align: center !important;
+    font-size: 1.2em !important;
+    background:black !important;
+    color:white !important;
+}
+
+.zindex-99{
+    z-index: -99 !important;
+}
+
+.cpointer{
+    cursor:pointer;
+}
+
+.rowclick tbody tr { 
+    cursor:pointer;
+}
